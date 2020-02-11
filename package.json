@@ -1,0 +1,76 @@
+{
+  "name": "gatsby-starter-wevr",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby using Wevr's theme",
+  "version": "0.1.0",
+  "author": "Conner West<cwest@bloxbuilt.com>",
+  "dependencies": {
+    "@fengyuanchen/datepicker": "^0.6.3",
+    "@storybook/cli": "^5.3.12",
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
+    "babel-preset-react-app": "^9.1.1",
+    "bootstrap": "^4.0.0",
+    "chart.js": "^2.6.0",
+    "datatables.net": "^1.10.16",
+    "dragula": "^3.7.2",
+    "dropzone": "^5.2.0",
+    "fullcalendar": "^3.4.0",
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-typescript": "^2.1.27",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "grommet": "^2.10.0",
+    "grommet-icons": "^4.4.0",
+    "jquery": "^3.3.1",
+    "jquery-match-height": "^0.7.2",
+    "jqvmap": "^1.5.1",
+    "moment": "^2.18.1",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "select2": "^4.0.6-rc.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-links": "^5.3.12",
+    "@storybook/addons": "^5.3.12",
+    "@storybook/react": "^5.3.12",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
