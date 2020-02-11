@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -12,10 +11,10 @@ const Header = ({ siteTitle }) => (
       <nav className="c-nav" id="main-nav">
         <ul className="c-nav__list">
           <li className="c-nav__item">
-            <a className="c-nav__link" href="#!">Events</a>
+            <a className="c-nav__link" href="/">Home</a>
           </li>
           <li className="c-nav__item">
-            <a className="c-nav__link" href="#!">Browse</a>
+            <a className="c-nav__link" href="/page-2">Page2</a>
           </li>
           <li className="c-nav__item">
             <a className="c-nav__link" href="#!">Your Ticket</a>

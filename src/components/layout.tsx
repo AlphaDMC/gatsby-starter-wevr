@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
   return (
     <Grommet
       style={{
-        // backgroundColor: `#1a1a1a`,
         height: '100%'
       }}
     >
